@@ -31,7 +31,7 @@ function AddEmployee(props) {
       password: password,
     };
     console.log(data);
-    const apiurl = "http://localhost:4000/add_employee";
+    const apiurl = "http://13.50.241.225:4000/add_employee";
     const requestOptions = {
       method: "POST",
       headers: {
