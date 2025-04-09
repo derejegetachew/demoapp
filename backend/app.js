@@ -12,7 +12,7 @@ app.use(
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // Allowed methods
     credentials: true, // Allow credentials
   })
-);
+); 
 
 // allow  CORS to all
 // app.use(cors());
@@ -90,5 +90,5 @@ app.get("/", (req, res) => {
   res.send("Hello, World! Your Express server is running.");
 });
 
-const port = 4000;
+const port = 3000;
 app.listen(port, () => console.log(`listening on port ${port}`));
